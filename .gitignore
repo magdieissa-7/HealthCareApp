@@ -1,33 +1,33 @@
-# Build directory
+
 build/
 cmake-build-*/
 
-# CMake files
+
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 Makefile
 
-# Qt generated files
+
 *.moc
 moc_*.cpp
 qrc_*.cpp
 ui_*.h
 
-# Compiled binaries
+
 HealthCareApp
 HealthCareTests
 
-# SQLite database files
+
 *.db
 *.sqlite
 
-# IDE files
+
 .vscode/
 .idea/
 *.user
 *.pro.user
 
-# OS files
+
 .DS_Store
 Thumbs.db
