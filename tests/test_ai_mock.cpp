@@ -5,7 +5,7 @@
 using ::testing::_;
 using ::testing::Invoke;
 
-// Mock the AI assistant so tests never make real API calls
+
 class MockAIHealthAssistant : public IAIHealthAssistant {
 public:
     MOCK_METHOD(void, ask,
@@ -14,7 +14,7 @@ public:
         (override));
 };
 
-// ── Tests ─────────────────────────────────────────────────────────────────────
+
 
 TEST(AIAssistantMockTest, AskIsCalledWithQuestion) {
     MockAIHealthAssistant mock;
